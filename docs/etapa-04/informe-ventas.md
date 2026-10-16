@@ -21,7 +21,7 @@ Esta consulta permite analizar las ventas del MiniMarket durante un período det
 
 La consulta relaciona las tablas mediante INNER JOIN y filtra las compras según una fecha de inicio y una fecha de fin.
 
-Utiliza las funciones SUM para calcular el importe total y las unidades vendidas, y COUNT(DISTINCT ...) para contar las compras sin repetir una misma operación dentro de la categoría.
+Utiliza las funciones SUM para calcular el importe total y las unidades vendidas, y COUNT(DISTINCT ...) para contar las compras sin repetir una misma operacion dentro de la categoria.
 
 Los resultados se agrupan con GROUP BY por categoría y se ordenan de mayor a menor según el importe vendido.
 
