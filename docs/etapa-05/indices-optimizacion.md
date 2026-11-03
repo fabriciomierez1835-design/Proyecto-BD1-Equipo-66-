@@ -1,1 +1,3 @@
 # Índices y optimización
+
+Definición:
